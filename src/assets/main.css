@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#output {
+  text-align: center;
+}
+#output h1 {
+  padding: 10px;
+  background: black;
+  color: white;
+  padding: 30px;
+}
+
+#output p {
+  font-weight: bold;
+  background-color: brown;
+  color: white;
+  letter-spacing: 3px;
+  padding: 20px;
+}
+
+#configWrapper {
+  margin-top: 50px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+}
+
+#configWrapper .config-item {
+  margin-top: 10px;
+}
+
+#configWrapper .config-item h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#configWrapper .config-item div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#numLength {
+  width: 100%;
+  border: 2px solid #cdcdcd;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+
+#btnGenerate {
+  margin-top: 30px;
+  width: 100%;
+  font-size: 22px;
+  background: #008080;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+  border: 2px solid #008080;
+  cursor: pointer;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+#btnGenerate:hover {
+  background: #015c5c;
+}
